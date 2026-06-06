@@ -1,0 +1,107 @@
+export const CASE_STUDIES = [
+  {
+    slug: 'knee-replacement-68',
+    patientAge: '68-Year-Old Patient',
+    condition: 'Advanced Knee Arthritis',
+    treatment: 'Total Knee Replacement',
+    recoveryTime: '6 Weeks',
+    thumbnailLabel: 'Knee Replacement Recovery Placeholder',
+    overview: {
+      age: '68',
+      condition: 'Advanced Knee Arthritis (Grade 4)',
+      symptoms: 'Severe joint pain, stiffness, difficulty walking more than 100 meters, swelling after activity',
+      duration: '7 Years of progressive deterioration',
+    },
+    beforeTreatment: 'The patient presented with end-stage knee osteoarthritis. X-rays showed complete loss of joint space in the medial compartment with significant varus deformity. Pain had become debilitating, affecting sleep and daily activities.',
+    procedureName: 'Total Knee Replacement (TKR)',
+    procedureSummary: 'A comprehensive total knee replacement was performed using a high-flexion implant system. The procedure involved precise bone preparation, ligament balancing, and implant positioning using computer-assisted techniques for optimal alignment.',
+    results: {
+      painReduction: '90% reduction within 3 months',
+      mobilityImprovement: 'Independent walking without support by Week 4',
+      recoveryTimelineDays: [
+        { day: 'Day 1', description: 'Stand with support, begin ankle pumps and quadriceps exercises' },
+        { day: 'Week 2', description: 'Walk with walker, active knee flexion to 90 degrees' },
+        { day: 'Week 6', description: 'Independent walking, return to light daily activities' },
+        { day: 'Month 3', description: 'Climb stairs comfortably, resume driving' },
+        { day: 'Month 6', description: 'Full recovery, resume all normal activities' },
+      ],
+      outcomeSummary: 'Successful outcome with restored knee function, pain-free mobility, and return to independent lifestyle.',
+    },
+    doctorNote: 'Knee replacement surgery has evolved significantly. With modern implant technology and minimally invasive techniques, recovery timelines have improved dramatically. This case demonstrates the expected trajectory when surgery is performed at the right time with a well-structured rehabilitation plan.',
+  },
+  {
+    slug: 'shoulder-arthroscopy-42',
+    patientAge: '42-Year-Old Patient',
+    condition: 'Recurrent Shoulder Dislocation',
+    treatment: 'Arthroscopic Bankart Repair',
+    recoveryTime: '12 Weeks',
+    thumbnailLabel: 'Shoulder Surgery Recovery Placeholder',
+    overview: {
+      age: '42',
+      condition: 'Recurrent Shoulder Dislocation (Bankart Lesion)',
+      symptoms: 'Shoulder instability, recurrent dislocations during overhead activities, apprehension with certain movements',
+      duration: '2 Years of recurrent instability after initial sports injury',
+    },
+    beforeTreatment: 'The patient experienced multiple shoulder dislocations after an initial cricket injury. MRI confirmed a Bankart lesion with capsular laxity. Conservative physiotherapy had failed to prevent recurrence during sports activities.',
+    procedureName: 'Arthroscopic Bankart Repair',
+    procedureSummary: 'A minimally invasive arthroscopic procedure was performed to repair the torn labrum and tighten the shoulder capsule. Three small anchor sutures were used to reattach the labrum to the glenoid rim, restoring shoulder stability.',
+    results: {
+      painReduction: 'Full pain resolution by Week 8',
+      mobilityImprovement: 'Full range of motion restored by Week 12',
+      recoveryTimelineDays: [
+        { day: 'Day 1', description: 'Shoulder immobilizer, gentle pendulum exercises' },
+        { day: 'Week 2', description: 'Begin passive range of motion exercises with physiotherapist' },
+        { day: 'Week 6', description: 'Active assisted exercises, wean off sling gradually' },
+        { day: 'Month 3', description: 'Strengthening program begins, full daily activities' },
+        { day: 'Month 6', description: 'Return to sports with full confidence and stability' },
+      ],
+      outcomeSummary: 'Shoulder stability fully restored with no further dislocations. Patient returned to cricket within 6 months with complete confidence.',
+    },
+    doctorNote: 'Arthroscopic shoulder stabilization is one of the most successful procedures in orthopedic surgery when performed with proper technique. Early rehabilitation is crucial — too aggressive can risk failure, too conservative can lead to stiffness. A carefully supervised physiotherapy protocol makes all the difference.',
+  },
+  {
+    slug: 'spine-surgery-55',
+    patientAge: '55-Year-Old Patient',
+    condition: 'Lumbar Disc Herniation',
+    treatment: 'Microdiscectomy',
+    recoveryTime: '4 Weeks',
+    thumbnailLabel: 'Spine Surgery Recovery Placeholder',
+    overview: {
+      age: '55',
+      condition: 'Lumbar Disc Herniation (L4-L5)',
+      symptoms: 'Sharp shooting pain down right leg, numbness in foot, difficulty sitting for more than 15 minutes',
+      duration: '8 Months of progressive sciatica despite conservative treatment',
+    },
+    beforeTreatment: 'The patient had severe right-sided sciatica radiating to the foot with associated numbness. MRI revealed a large paracentral disc herniation at L4-L5 compressing the traversing nerve root. Epidural steroid injections and physiotherapy provided only temporary relief.',
+    procedureName: 'Lumbar Microdiscectomy',
+    procedureSummary: 'A minimally invasive microdiscectomy was performed through a small 2cm incision. Using an operating microscope, the herniated disc fragment was carefully removed while preserving the healthy disc tissue and surrounding structures.',
+    results: {
+      painReduction: 'Immediate leg pain relief post-surgery',
+      mobilityImprovement: 'Walking comfortably within 24 hours',
+      recoveryTimelineDays: [
+        { day: 'Day 1', description: 'Walk with assistance, leg pain significantly improved' },
+        { day: 'Week 1', description: 'Walk independently, begin gentle core exercises' },
+        { day: 'Week 4', description: 'Return to desk work, light daily activities' },
+        { day: 'Month 3', description: 'Core strengthening, resume most normal activities' },
+        { day: 'Month 6', description: 'Full return to all activities including recreational sports' },
+      ],
+      outcomeSummary: 'Immediate sciatica relief with complete neurological recovery. Patient returned to work and recreational activities without limitations.',
+    },
+    doctorNote: 'Microdiscectomy remains the gold standard for symptomatic disc herniations that fail conservative management. The key to success is proper patient selection — those with predominantly leg pain from nerve root compression have the best outcomes. Spine health maintenance through core strengthening is essential for long-term results.',
+  },
+];
+
+export const CASE_THUMBNAIL_PLACEHOLDERS = [
+  {
+    slug: 'knee-replacement-68',
+    query: 'clean modern orthopedic recovery space, abstract representation of knee joint rehabilitation, soft natural light, calming medical environment, healing and wellness aesthetic, no people visible, minimalist clinical design&width=800&height=600&seq=case-thumb-knee-01&orientation=landscape',
+  },
+  {
+    slug: 'shoulder-arthroscopy-42',
+    query: 'clean modern physiotherapy rehabilitation space, abstract representation of shoulder mobility and recovery, soft natural light, calming wellness atmosphere, healing environment aesthetic, no people visible, minimalist clinical design&width=800&height=600&seq=case-thumb-shoulder-01&orientation=landscape',
+  },
+  {
+    slug: 'spine-surgery-55',
+    query: 'clean modern orthopedic recovery environment, abstract representation of spine health and wellness, soft natural light, calming healing atmosphere, rehabilitation aesthetic, no people visible, minimalist clinical design&width=800&height=600&seq=case-thumb-spine-01&orientation=landscape',
+  },
+];
