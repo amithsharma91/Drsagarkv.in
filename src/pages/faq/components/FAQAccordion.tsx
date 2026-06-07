@@ -24,7 +24,7 @@ const FAQ_CATEGORIES = [
       },
       {
         q: 'How experienced is Dr. Sagar K V?',
-        a: 'Dr. Sagar K V has over 12 years of experience in orthopedics. He holds an MBBS degree, a Diploma in Orthopaedics (D.Ortho), and DNB Orthopedics certification. He has successfully performed over 3,000 surgeries and treated thousands of patients at South End Speciality Clinic, Basavanagudi.',
+        a: 'Dr. Sagar K V has over 12 years of experience in orthopedics. He holds an MBBS degree, a Diploma in Orthopaedics (D.Ortho), and DNB Orthopedics certification. He has successfully performed over 300 surgeries and treated thousands of patients at South End Speciality Clinic, Basavanagudi.',
       },
     ],
   },
@@ -116,7 +116,7 @@ const FAQ_CATEGORIES = [
       },
       {
         q: 'What are the clinic timings?',
-        a: 'Dr. Sagar K V consults at South End Speciality Clinic, Basavanagudi — Mon-Sat 9 AM to 7 PM. The clinic is closed on Sundays.'
+        a: 'Dr. Sagar K V consults at South End Speciality Clinic, Basavanagudi — Mon-Sat 6 PM to 9 PM. The clinic is closed on Sundays.'
       },
       {
         q: 'Which insurance plans are accepted?',
