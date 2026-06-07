@@ -85,7 +85,7 @@ export default function JointReplacementPage() {
           <RevealBlock delay="delay-200">
             <div className="bg-background-50 border border-background-200/70 rounded-3xl p-6 md:p-8 max-w-3xl mx-auto">
               <p className="text-foreground-600 text-sm leading-relaxed mb-4">Joint replacement surgery — also called arthroplasty — is one of the most successful procedures in modern medicine. It involves removing damaged joint surfaces and replacing them with precisely engineered implants made of metal alloys, high-grade plastics, and ceramic materials.</p>
-              <p className="text-foreground-600 text-sm leading-relaxed mb-4">Dr. Sagar K V has performed <strong className="text-foreground-900">over 3,000 joint replacements</strong> using advanced minimally invasive techniques. His approach prioritizes muscle preservation, smaller incisions, reduced blood loss, and faster recovery — without compromising on surgical precision or implant positioning.</p>
+              <p className="text-foreground-600 text-sm leading-relaxed mb-4">Dr. Sagar K V has performed <strong className="text-foreground-900">over 300 joint replacement procedures</strong> using advanced minimally invasive techniques. His approach prioritizes muscle preservation, smaller incisions, reduced blood loss, and faster recovery — without compromising on surgical precision or implant positioning.</p>
               <p className="text-foreground-600 text-sm leading-relaxed">The decision to proceed with joint replacement is never taken lightly. It is recommended only when conservative treatments — medication, physiotherapy, injections, and lifestyle modifications — have failed to provide adequate relief, and pain significantly impacts your quality of life.</p>
             </div>
           </RevealBlock>
@@ -199,7 +199,7 @@ export default function JointReplacementPage() {
             <h2 className="font-heading font-bold text-3xl md:text-4xl text-foreground-900 mt-3">
               Dr. Sagar's <span className="text-accent-600">Surgical Method</span>
             </h2>
-            <p className="text-foreground-500 text-sm mt-3 max-w-xl mx-auto">A systematic, evidence-based approach refined over 3,000+ successful surgeries.</p>
+            <p className="text-foreground-500 text-sm mt-3 max-w-xl mx-auto">A systematic, evidence-based approach refined over 300+ successful procedures.</p>
           </RevealBlock>
 
           <div className="space-y-4">
