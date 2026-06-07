@@ -68,7 +68,7 @@ export default function LocationsSection() {
                     <div className="w-5 h-5 rounded-full bg-white/10 flex items-center justify-center shrink-0">
                       <i className="ri-time-line text-white/50 text-xs"></i>
                     </div>
-                    <p className="text-white/70 text-sm">Mon - Sat: 9 AM - 7 PM</p>
+                    <p className="text-white/70 text-sm">Mon - Sat: 6 PM - 9 PM</p>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="w-5 h-5 rounded-full bg-white/10 flex items-center justify-center shrink-0">
