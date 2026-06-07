@@ -87,6 +87,71 @@ export default function PainManagementPage() {
         </div>
       </section>
 
+      {/* CRFA Section */}
+      <section className="py-16 md:py-24 bg-background-100">
+        <div className="max-w-6xl mx-auto px-4 md:px-8">
+          <div className="text-center mb-10">
+            <span className="text-accent-500 font-heading font-semibold text-xs tracking-[0.2em] uppercase">Advanced Treatment</span>
+            <h2 className="font-heading font-bold text-3xl md:text-4xl text-foreground-900 mt-3">
+              Cooled Radiofrequency Ablation (CRFA) for Knee Pain
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8">
+            {/* Description Card */}
+            <div className="lg:col-span-2 bg-white border border-background-200/70 rounded-2xl p-6 md:p-8">
+              <div className="flex items-start gap-4 mb-5">
+                <div className="w-12 h-12 rounded-xl bg-accent-100 flex items-center justify-center shrink-0">
+                  <i className="ri-flashlight-line text-accent-600 text-xl"></i>
+                </div>
+                <div>
+                  <h3 className="font-heading font-semibold text-foreground-900 text-base mb-2">What is CRFA?</h3>
+                  <p className="text-foreground-500 text-sm leading-relaxed">
+                    Cooled Radiofrequency Ablation (CRFA) is a minimally invasive pain management procedure designed to provide long-lasting relief for chronic knee pain by targeting specific pain-transmitting nerves around the knee joint.
+                  </p>
+                </div>
+              </div>
+              <p className="text-foreground-500 text-sm leading-relaxed">
+                This treatment is commonly considered for patients with persistent knee pain due to arthritis or degenerative joint conditions who wish to improve mobility and reduce pain without immediate surgery.
+              </p>
+            </div>
+
+            {/* Highlight Card */}
+            <div className="bg-accent-500 rounded-2xl p-6 md:p-8 text-white flex flex-col justify-center">
+              <div className="w-12 h-12 rounded-xl bg-white/15 flex items-center justify-center mb-4">
+                <i className="ri-shield-check-line text-white text-2xl"></i>
+              </div>
+              <h3 className="font-heading font-bold text-lg mb-3">Why Choose CRFA?</h3>
+              <p className="text-white/70 text-sm leading-relaxed">
+                A proven non-surgical option that targets pain at its source — offering significant relief for patients who want to stay active without undergoing joint replacement surgery.
+              </p>
+            </div>
+          </div>
+
+          {/* Benefits Grid */}
+          <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4">
+            {[
+              { icon: 'ri-timer-flash-line', title: 'Long-Lasting Pain Relief', desc: 'Provides sustained pain reduction for months to over a year, significantly improving daily comfort and mobility.' },
+              { icon: 'ri-walk-line', title: 'Improved Mobility & Function', desc: 'Patients experience better walking ability and range of motion, making everyday activities easier.' },
+              { icon: 'ri-medicine-bottle-line', title: 'Reduced Medication Dependence', desc: 'Many patients report decreased reliance on pain medications following successful CRFA treatment.' },
+              { icon: 'ri-home-smile-line', title: 'Outpatient Procedure', desc: 'Performed as an outpatient procedure with no hospital stay required — you go home the same day.' },
+              { icon: 'ri-speed-up-line', title: 'Minimal Recovery Time', desc: 'Most patients resume normal daily activities within 24-48 hours after the procedure.' },
+              { icon: 'ri-heart-pulse-line', title: 'Improved Quality of Life', desc: 'Restored ability to enjoy hobbies, social activities, and exercise without constant knee pain.' },
+              { icon: 'ri-user-heart-line', title: 'For Selected Arthritis Patients', desc: 'Particularly beneficial for patients with knee arthritis who are not yet ready for joint replacement.' },
+              { icon: 'ri-time-line', title: 'May Delay Surgery', desc: 'Effective pain management with CRFA can help delay or extend the time before joint replacement becomes necessary.' },
+            ].map((benefit, i) => (
+              <div key={i} className="bg-white border border-background-200/70 rounded-2xl p-4 md:p-5 transition-all duration-300 hover:border-accent-200 hover:-translate-y-1">
+                <div className="w-10 h-10 rounded-xl bg-accent-50 flex items-center justify-center mb-3">
+                  <i className={`${benefit.icon} text-accent-600 text-lg`}></i>
+                </div>
+                <h4 className="font-heading font-semibold text-foreground-900 text-sm mb-1.5">{benefit.title}</h4>
+                <p className="text-foreground-500 text-xs leading-relaxed">{benefit.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-16 md:py-24 bg-background-50">
         <div className="max-w-3xl mx-auto px-4 md:px-8">
