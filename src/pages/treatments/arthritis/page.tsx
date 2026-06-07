@@ -74,7 +74,7 @@ export default function ArthritisPage() {
           <RevealBlock delay="delay-200">
             <div className="max-w-3xl mx-auto space-y-4">
               <p className="text-foreground-600 text-sm leading-relaxed">Arthritis is not a single disease — it's an umbrella term covering over 100 different joint conditions affecting millions of people. At its core, arthritis means joint inflammation, but each type behaves differently and requires a unique treatment approach.</p>
-              <p className="text-foreground-600 text-sm leading-relaxed">Dr. Sagar K V manages arthritis using a <strong className="text-foreground-900">structured,阶梯式 protocol</strong> — starting with the least invasive options and progressing only when necessary. The goal is to keep you active, independent, and in control of your condition at every stage.</p>
+              <p className="text-foreground-600 text-sm leading-relaxed">Dr. Sagar K V manages arthritis using a <strong className="text-foreground-900">structured treatment protocol</strong> — starting with the least invasive options and progressing only when necessary. The goal is to keep you active, independent, and in control of your condition at every stage.</p>
               <p className="text-foreground-600 text-sm leading-relaxed">The most important thing to know: <strong className="text-violet-700">arthritis can be managed</strong>. With the right treatment plan, most patients maintain excellent quality of life without needing joint replacement surgery.</p>
             </div>
           </RevealBlock>
