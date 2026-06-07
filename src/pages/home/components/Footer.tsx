@@ -152,7 +152,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-2 text-white/40 text-xs pl-7">
                 <i className="ri-time-line"></i>
-                <span>Mon - Sat: 9 AM - 7 PM</span>
+                <span>Mon - Sat: 6 PM - 9 PM</span>
               </div>
             </div>
 
