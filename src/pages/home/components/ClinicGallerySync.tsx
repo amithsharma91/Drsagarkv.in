@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { GALLERY_IMAGES } from '@/mocks/gallery-images';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 
-const FEATURED_INDICES = [0, 1, 3, 6, 9];
+const FEATURED_INDICES = [0, 1, 2, 3, 5];
 
 export default function ClinicGallerySync() {
   const [lightboxOpen, setLightboxOpen] = useState<number | null>(null);
