@@ -7,7 +7,7 @@ const CONTACT_CARDS = [
     icon: 'ri-phone-line',
     title: 'Call Dr. Sagar K V',
     detail: '+91 81973 44754',
-    sub: 'Available Mon–Sat, 9 AM – 8 PM',
+    sub: 'Available Mon–Sat, 6 PM – 9 PM',
     href: 'tel:+918197344754',
     btnLabel: 'Call Now',
     color: 'primary',
