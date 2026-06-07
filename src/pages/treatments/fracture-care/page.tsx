@@ -77,7 +77,7 @@ export default function FractureTraumaPage() {
           <RevealBlock delay="delay-200">
             <div className="max-w-3xl mx-auto space-y-4">
               <p className="text-foreground-600 text-sm leading-relaxed">A fracture — a broken bone — is one of the most common orthopedic emergencies. Whether from a road accident, sports injury, workplace incident, or a simple fall at home, fractures demand prompt, expert attention to heal correctly and prevent long-term complications.</p>
-              <p className="text-foreground-600 text-sm leading-relaxed">Dr. Sagar K V has treated <strong className="text-foreground-900">over 4,000 fractures</strong> ranging from simple wrist fractures in children to complex polytrauma from road accidents. His emergency orthopedic services at South End Speciality Clinic ensure patients receive timely, expert care when it matters most.</p>
+              <p className="text-foreground-600 text-sm leading-relaxed">Dr. Sagar K V has treated <strong className="text-foreground-900">over 4,000 fractures</strong> ranging from simple wrist fractures in children to complex polytrauma from road accidents. His orthopedic services at South End Speciality Clinic ensure patients receive timely, expert care when it matters most.</p>
               <p className="text-foreground-600 text-sm leading-relaxed">The goal of fracture treatment is straightforward: <strong className="text-teal-700">restore anatomy, achieve stable fixation, and enable early mobilization</strong>. Modern surgical techniques allow many patients to begin moving and bearing weight much sooner than traditional methods permitted.</p>
             </div>
           </RevealBlock>
