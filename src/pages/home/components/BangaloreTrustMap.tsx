@@ -7,7 +7,7 @@ const LOCATIONS = [
     name: 'South End Speciality Clinic',
     area: 'Basavanagudi',
     address: 'No. 45, South End Road, Basavanagudi, Bangalore 560004',
-    timing: 'Mon - Sat: 9 AM - 7 PM',
+    timing: 'Mon - Sat: 6 PM - 9 PM',
     x: '38%',
     y: '58%',
     icon: 'ri-building-line',
