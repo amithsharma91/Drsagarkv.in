@@ -61,7 +61,7 @@ export default function GalleryPage() {
           <div className="mt-12 text-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-background-100 border border-background-200">
               <i className="ri-information-line text-foreground-400 text-xs"></i>
-              <span className="text-foreground-400 text-[11px]">Some images are representational. Real case media available for in-clinic review.</span>
+              <span className="text-foreground-400 text-[11px]">Clinic photos are real. Videos and X-rays available for in-clinic review.</span>
             </div>
           </div>
         </div>
