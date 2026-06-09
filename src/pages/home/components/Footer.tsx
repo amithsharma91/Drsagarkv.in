@@ -8,7 +8,6 @@ const FOOTER_LINKS = {
     { label: 'Joint Replacement', href: '/treatments/joint-replacement' },
     { label: 'Knee Pain', href: '/treatments/knee-pain' },
     { label: 'Sports Injuries', href: '/treatments/sports-injuries' },
-    { label: 'Patient Stories', href: '/patient-stories' },
     { label: 'Reviews', href: '/reviews' },
     { label: 'FAQs', href: '/faq' },
     { label: 'Contact', href: '/contact' },
